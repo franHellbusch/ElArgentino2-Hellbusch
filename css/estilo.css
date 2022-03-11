@@ -34,6 +34,195 @@
     .header .navbar .nav-item {
       padding: 0px 1rem; }
 
+.mainContacto {
+  background-color: #534618;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23534618' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23675119' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%237c5c1b' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%2391671b' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23a6721c' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23BC7E1C' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-family: "Montserrat", sans-serif; }
+  .mainContacto .contacto__tittle {
+    font-size: 45px;
+    color: whitesmoke; }
+  .mainContacto .form__name {
+    font-size: 30px;
+    color: whitesmoke; }
+  .mainContacto .form__name--modificaciones, .mainContacto .form__apellido--modificaciones {
+    font-size: 20px; }
+  .mainContacto .form__textarea {
+    font-size: 30px;
+    color: whitesmoke; }
+  .mainContacto .form__textarea--modificaciones {
+    font-size: 20px;
+    width: 510px; }
+  .mainContacto .form__enviar, .mainContacto .form__borrar {
+    font-size: 20px; }
+  .mainContacto .contactanos__numero {
+    font-size: 25px;
+    color: black;
+    background-color: brown;
+    border: 2px solid black; }
+  .mainContacto .contactanos__tittle .comenta__tittle {
+    font-size: 30px;
+    color: black; }
+  .mainContacto .contactanos__texto {
+    font-size: 25px;
+    color: whitesmoke;
+    width: 500px; }
+  .mainContacto .comenta__img {
+    width: 100px; }
+
+.mainNosotros {
+  background-color: #DFAC24;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3CradialGradient id='a' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23FFEAC5'/%3E%3Cstop offset='1' stop-color='%23DFAC24'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='750' x2='1550' y2='750'%3E%3Cstop offset='0' stop-color='%23efcb75'/%3E%3Cstop offset='1' stop-color='%23DFAC24'/%3E%3C/linearGradient%3E%3Cpath id='s' fill='url(%23b)' d='M1549.2 51.6c-5.4 99.1-20.2 197.6-44.2 293.6c-24.1 96-57.4 189.4-99.3 278.6c-41.9 89.2-92.4 174.1-150.3 253.3c-58 79.2-123.4 152.6-195.1 219c-71.7 66.4-149.6 125.8-232.2 177.2c-82.7 51.4-170.1 94.7-260.7 129.1c-90.6 34.4-184.4 60-279.5 76.3C192.6 1495 96.1 1502 0 1500c96.1-2.1 191.8-13.3 285.4-33.6c93.6-20.2 185-49.5 272.5-87.2c87.6-37.7 171.3-83.8 249.6-137.3c78.4-53.5 151.5-114.5 217.9-181.7c66.5-67.2 126.4-140.7 178.6-218.9c52.3-78.3 96.9-161.4 133-247.9c36.1-86.5 63.8-176.2 82.6-267.6c18.8-91.4 28.6-184.4 29.6-277.4c0.3-27.6 23.2-48.7 50.8-48.4s49.5 21.8 49.2 49.5c0 0.7 0 1.3-0.1 2L1549.2 51.6z'/%3E%3Cg id='g'%3E%3Cuse href='%23s' transform='scale(0.12) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.2) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.25) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(0.3) rotate(-20)'/%3E%3Cuse href='%23s' transform='scale(0.4) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(0.5) rotate(20)'/%3E%3Cuse href='%23s' transform='scale(0.6) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.7) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.835) rotate(-40)'/%3E%3Cuse href='%23s' transform='scale(0.9) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(1.05) rotate(25)'/%3E%3Cuse href='%23s' transform='scale(1.2) rotate(8)'/%3E%3Cuse href='%23s' transform='scale(1.333) rotate(-60)'/%3E%3Cuse href='%23s' transform='scale(1.45) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(1.6) rotate(10)'/%3E%3C/g%3E%3C/defs%3E%3Cg transform='rotate(0 0 0)'%3E%3Cg transform='rotate(0 0 0)'%3E%3Ccircle fill='url(%23a)' r='3000'/%3E%3Cg opacity='0.5'%3E%3Ccircle fill='url(%23a)' r='2000'/%3E%3Ccircle fill='url(%23a)' r='1800'/%3E%3Ccircle fill='url(%23a)' r='1700'/%3E%3Ccircle fill='url(%23a)' r='1651'/%3E%3Ccircle fill='url(%23a)' r='1450'/%3E%3Ccircle fill='url(%23a)' r='1250'/%3E%3Ccircle fill='url(%23a)' r='1175'/%3E%3Ccircle fill='url(%23a)' r='900'/%3E%3Ccircle fill='url(%23a)' r='750'/%3E%3Ccircle fill='url(%23a)' r='500'/%3E%3Ccircle fill='url(%23a)' r='380'/%3E%3Ccircle fill='url(%23a)' r='250'/%3E%3C/g%3E%3Cg transform='rotate(0 0 0)'%3E%3Cuse href='%23g' transform='rotate(10)'/%3E%3Cuse href='%23g' transform='rotate(120)'/%3E%3Cuse href='%23g' transform='rotate(240)'/%3E%3C/g%3E%3Ccircle fill-opacity='0' fill='url(%23a)' r='3000'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-family: "Montserrat", sans-serif;
+  /* modificaciones de la seccion de comienzo */
+  /* modificaciones de las seccion de personal */ }
+  .mainNosotros .comienzo {
+    padding-top: 3rem;
+    padding-bottom: 4rem; }
+    .mainNosotros .comienzo .comienzo__tittle {
+      font-size: 45px;
+      color: black; }
+    .mainNosotros .comienzo .comienzo__img {
+      border: 2px double black;
+      padding: 0px; }
+    .mainNosotros .comienzo .comienzo__texto {
+      font-size: 23px;
+      color: brown;
+      background-color: whitesmoke;
+      background-size: cover;
+      border: 2px double black;
+      padding: 2rem; }
+  .mainNosotros .personal {
+    padding-bottom: 3rem; }
+    .mainNosotros .personal .personal__tittle {
+      font-size: 40px;
+      color: black;
+      padding-bottom: 2rem; }
+    .mainNosotros .personal .personal__cards {
+      padding-right: 0px; }
+
+/* modificaciones del mainMenu */
+.mainMenu {
+  background-color: #EDA73A;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='418' height='418' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23D09F3A' stroke-width='2.4'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%2396711C'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-family: "Montserrat", sans-serif;
+  /* seccion de comidas */
+  /* seccion de guarniciones */
+  /* seccion de carnes */
+  /* seccion de pastas */
+  /* seccion de postres */
+  /* seccion de bebidas y tragos */ }
+  .mainMenu .menu__tittle {
+    font-size: 30px;
+    color: whitesmoke; }
+  .mainMenu .menu__img {
+    width: 25%;
+    height: auto;
+    border: 2px solid black;
+    transition: all 0.5s; }
+    .mainMenu .menu__img:hover {
+      width: 27%;
+      height: auto; }
+  .mainMenu .menu__nav__item {
+    font-size: 25px;
+    border: 2px solid black;
+    background-color: sandybrown; }
+  .mainMenu #guarniciones, .mainMenu #carnes, .mainMenu #pastas, .mainMenu #postres, .mainMenu #bebidasYTragos {
+    background-image: url(../assets/img/carbon.jpg);
+    border: 1px solid white; }
+  .mainMenu .guarniciones__tittle, .mainMenu .carnes__tittle, .mainMenu .pastas__tittle, .mainMenu .postres__tittle, .mainMenu .bebidasYTragos__tittle {
+    font-size: 30px;
+    color: ghostwhite;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    margin: 0px;
+    display: inline; }
+  .mainMenu .guarniciones__subtittle, .mainMenu .carnes__subtittle, .mainMenu .pastas__subtittle, .mainMenu .postres__subtittle, .mainMenu .bebidasYTragos__subtittle {
+    font-size: 25px;
+    color: brown;
+    display: inline; }
+  .mainMenu .guarniciones__item {
+    font-size: 23px;
+    color: brown; }
+  .mainMenu .guarniciones__img--modificaciones {
+    width: 300px;
+    border: 2px solid brown; }
+  .mainMenu .carnes__item {
+    font-size: 23px;
+    color: brown; }
+  .mainMenu .carnes__img--modificaciones {
+    width: 300px;
+    border: 2px solid brown; }
+  .mainMenu .pastas__item {
+    font-size: 25px;
+    color: brown; }
+  .mainMenu .pastas__img--modificaciones {
+    width: 250px;
+    border: 2px solid brown; }
+  .mainMenu .postres__item {
+    font-size: 25px;
+    color: brown; }
+  .mainMenu .postres__img--modificaciones {
+    width: 300px;
+    border: 2px solid brown; }
+  .mainMenu .bebidasYTragos__sinAlcohol {
+    font-size: 25px;
+    color: sandybrown; }
+  .mainMenu .sinAlcohol__item {
+    font-size: 26px;
+    color: brown; }
+  .mainMenu .bebidasYTragos__conAlcohol {
+    font-size: 25px;
+    color: sandybrown; }
+  .mainMenu .conAlcohol__item {
+    font-size: 26px;
+    color: brown; }
+  .mainMenu .bebidasYTragos__img--modificaciones {
+    width: 300px;
+    border: 2px solid brown; }
+
+.mainNovedades {
+  background-color: #B9B99D;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100%25 100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(0,800,397)' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237f7f77'/%3E%3Cstop offset='0.02' stop-color='%23B9B99D'/%3E%3Cstop offset='0.02' stop-color='%23c2c2b4'/%3E%3Cstop offset='0.032' stop-color='%23B9B99D'/%3E%3Cstop offset='0.032' stop-color='%23c1c1ab'/%3E%3Cstop offset='0.056' stop-color='%23B9B99D'/%3E%3Cstop offset='0.056' stop-color='%239f9f97'/%3E%3Cstop offset='0.07' stop-color='%23B9B99D'/%3E%3Cstop offset='0.07' stop-color='%23acac98'/%3E%3Cstop offset='0.1' stop-color='%23B9B99D'/%3E%3Cstop offset='0.1' stop-color='%23d1d1cc'/%3E%3Cstop offset='0.126' stop-color='%23B9B99D'/%3E%3Cstop offset='0.126' stop-color='%2380807a'/%3E%3Cstop offset='0.142' stop-color='%23B9B99D'/%3E%3Cstop offset='0.142' stop-color='%23c4c4b2'/%3E%3Cstop offset='0.159' stop-color='%23B9B99D'/%3E%3Cstop offset='0.159' stop-color='%23989882'/%3E%3Cstop offset='0.17' stop-color='%23B9B99D'/%3E%3Cstop offset='0.17' stop-color='%23c8c8b4'/%3E%3Cstop offset='0.197' stop-color='%23B9B99D'/%3E%3Cstop offset='0.197' stop-color='%238c8c7e'/%3E%3Cstop offset='0.218' stop-color='%23B9B99D'/%3E%3Cstop offset='0.218' stop-color='%23b6b69f'/%3E%3Cstop offset='0.239' stop-color='%23B9B99D'/%3E%3Cstop offset='0.239' stop-color='%23bfbfae'/%3E%3Cstop offset='0.254' stop-color='%23B9B99D'/%3E%3Cstop offset='0.254' stop-color='%23aaaa9b'/%3E%3Cstop offset='0.283' stop-color='%23B9B99D'/%3E%3Cstop offset='0.283' stop-color='%23cecec8'/%3E%3Cstop offset='0.294' stop-color='%23B9B99D'/%3E%3Cstop offset='0.294' stop-color='%23afaf9e'/%3E%3Cstop offset='0.305' stop-color='%23B9B99D'/%3E%3Cstop offset='0.305' stop-color='%23b8b89d'/%3E%3Cstop offset='0.332' stop-color='%23B9B99D'/%3E%3Cstop offset='0.332' stop-color='%23e8e8e2'/%3E%3Cstop offset='0.346' stop-color='%23B9B99D'/%3E%3Cstop offset='0.346' stop-color='%23d3d3cb'/%3E%3Cstop offset='0.362' stop-color='%23B9B99D'/%3E%3Cstop offset='0.362' stop-color='%23939386'/%3E%3Cstop offset='0.381' stop-color='%23B9B99D'/%3E%3Cstop offset='0.381' stop-color='%23c4c4b7'/%3E%3Cstop offset='0.415' stop-color='%23B9B99D'/%3E%3Cstop offset='0.415' stop-color='%23b9b9a2'/%3E%3Cstop offset='0.428' stop-color='%23B9B99D'/%3E%3Cstop offset='0.428' stop-color='%23ebebe5'/%3E%3Cstop offset='0.442' stop-color='%23B9B99D'/%3E%3Cstop offset='0.442' stop-color='%23b3b39a'/%3E%3Cstop offset='0.456' stop-color='%23B9B99D'/%3E%3Cstop offset='0.456' stop-color='%23d3d3c9'/%3E%3Cstop offset='0.498' stop-color='%23B9B99D'/%3E%3Cstop offset='0.498' stop-color='%23c5c5b6'/%3E%3Cstop offset='0.511' stop-color='%23B9B99D'/%3E%3Cstop offset='0.511' stop-color='%23bebeaf'/%3E%3Cstop offset='0.532' stop-color='%23B9B99D'/%3E%3Cstop offset='0.532' stop-color='%23a3a38c'/%3E%3Cstop offset='0.541' stop-color='%23B9B99D'/%3E%3Cstop offset='0.541' stop-color='%23d3d3c3'/%3E%3Cstop offset='0.56' stop-color='%23B9B99D'/%3E%3Cstop offset='0.56' stop-color='%23bbbba1'/%3E%3Cstop offset='0.581' stop-color='%23B9B99D'/%3E%3Cstop offset='0.581' stop-color='%239d9d97'/%3E%3Cstop offset='0.6' stop-color='%23B9B99D'/%3E%3Cstop offset='0.6' stop-color='%23b0b0a2'/%3E%3Cstop offset='0.618' stop-color='%23B9B99D'/%3E%3Cstop offset='0.618' stop-color='%23d0d0c9'/%3E%3Cstop offset='0.656' stop-color='%23B9B99D'/%3E%3Cstop offset='0.656' stop-color='%23979788'/%3E%3Cstop offset='0.679' stop-color='%23B9B99D'/%3E%3Cstop offset='0.679' stop-color='%23d6d6cd'/%3E%3Cstop offset='0.689' stop-color='%23B9B99D'/%3E%3Cstop offset='0.689' stop-color='%23cacaba'/%3E%3Cstop offset='0.720' stop-color='%23B9B99D'/%3E%3Cstop offset='0.720' stop-color='%23949485'/%3E%3Cstop offset='0.734' stop-color='%23B9B99D'/%3E%3Cstop offset='0.734' stop-color='%23b9b99d'/%3E%3Cstop offset='0.748' stop-color='%23B9B99D'/%3E%3Cstop offset='0.748' stop-color='%23e1e1d8'/%3E%3Cstop offset='0.764' stop-color='%23B9B99D'/%3E%3Cstop offset='0.764' stop-color='%23b5b59a'/%3E%3Cstop offset='0.788' stop-color='%23B9B99D'/%3E%3Cstop offset='0.788' stop-color='%237f7f6d'/%3E%3Cstop offset='0.808' stop-color='%23B9B99D'/%3E%3Cstop offset='0.808' stop-color='%2385857e'/%3E%3Cstop offset='0.831' stop-color='%23B9B99D'/%3E%3Cstop offset='0.831' stop-color='%23bfbfb8'/%3E%3Cstop offset='0.856' stop-color='%23B9B99D'/%3E%3Cstop offset='0.856' stop-color='%23d5d5cb'/%3E%3Cstop offset='0.872' stop-color='%23B9B99D'/%3E%3Cstop offset='0.872' stop-color='%23d0d0bf'/%3E%3Cstop offset='0.894' stop-color='%23B9B99D'/%3E%3Cstop offset='0.894' stop-color='%23c1c1ba'/%3E%3Cstop offset='0.914' stop-color='%23B9B99D'/%3E%3Cstop offset='0.914' stop-color='%23848477'/%3E%3Cstop offset='0.942' stop-color='%23B9B99D'/%3E%3Cstop offset='0.942' stop-color='%239b9b94'/%3E%3Cstop offset='0.957' stop-color='%23B9B99D'/%3E%3Cstop offset='0.957' stop-color='%23bebeaa'/%3E%3Cstop offset='0.973' stop-color='%23B9B99D'/%3E%3Cstop offset='0.973' stop-color='%23b8b89d'/%3E%3Cstop offset='1' stop-color='%23B9B99D'/%3E%3Cstop offset='1' stop-color='%23cfcfc7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' x='0' y='0' width='100%25' height='100%25'/%3E%3C/svg%3E");
+  background-size: cover;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-family: "Montserrat", sans-serif;
+  /* seccion de nuevos platos */
+  /* seccion de ultimos cambios */ }
+  .mainNovedades .nuevosPlatos__tittle {
+    font-size: 35px;
+    color: black; }
+  .mainNovedades .nuevoPlato1, .mainNovedades .nuevoPlato2 {
+    background-image: url(../assets/img/bg-nuevosplatos.jpg);
+    border: 2px solid black; }
+  .mainNovedades .nuevoPlato1__img, .mainNovedades .nuevoPlato2__img {
+    width: 500px;
+    border-right: 2px solid black; }
+  .mainNovedades .nuevoPlato1__tittle, .mainNovedades .nuevoPlato2__tittle {
+    font-size: 30px;
+    color: black; }
+  .mainNovedades .nuevoPlato1__texto, .mainNovedades .nuevoPlato2__texto {
+    font-size: 25px;
+    width: 500px;
+    color: whitesmoke; }
+  .mainNovedades .ultimosCambios__tittle {
+    font-size: 30px;
+    color: brown; }
+  .mainNovedades .carousel {
+    border: 2px solid black; }
+  .mainNovedades .cambios__img {
+    height: 100%;
+    width: auto; }
+
 .index {
   font-family: "Montserrat", sans-serif; }
   .index .mainIndex {
@@ -58,3 +247,47 @@
       .index .mainIndex .infoDeLocal .infoDeLocal__video {
         width: 800px;
         height: 450px; }
+
+@media only screen and (max-width: 600px) {
+  /* modificaciones del header */
+  .header__tittle {
+    font-size: 30px;
+    padding-top: 1rem; }
+  .header__logo {
+    width: 100px; }
+  .header__nav {
+    padding: 0px; }
+    .header__nav .navbar {
+      background-color: none;
+      height: auto;
+      margin-top: 0px;
+      font-size: 15px;
+      padding: 5px; }
+  /* modificaciones de la seccion de presentacion */
+  .presentacion {
+    padding-top: 2rem; }
+    .presentacion .presentacion__texto {
+      font-size: 15px; }
+  /* modificaciones de la seccion de infoDeLocal */
+  .infoDeLocal {
+    padding-top: 2rem;
+    padding-bottom: 1rem; }
+    .infoDeLocal .infoDeLocal__tittle {
+      font-size: 30px; }
+    .infoDeLocal .infoDeLocal__ubicacion {
+      padding-top: 2rem;
+      height: 100px; }
+    .infoDeLocal .infoDeLocal__video {
+      padding-top: 1rem;
+      width: 160px;
+      height: 130px; }
+  /* modificaciones del footer */
+  .footer {
+    padding: 10px 0px; }
+    .footer .footer__tittle {
+      font-size: 15px;
+      padding-left: 10px;
+      padding-top: 0px; }
+    .footer .footer__img--modificaciones {
+      width: 40px;
+      margin: 0px 0.5rem; } }
