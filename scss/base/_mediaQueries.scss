@@ -3,11 +3,11 @@
 			/* modificaciones del header */
 			.header{
 				.header__logo{
-					width: 100px;
+					width: 75px;
 					border: 1px solid black;
 				}
 				.header__tittle{
-					font-size: 30px;
+					font-size: 25px;
 					padding-top: 1rem;
 				}
 				.header__nav{
@@ -109,20 +109,26 @@
 			.nuevoPlato1{
 				.nuevoPlato1-bg{
 					background-image: url(../assets/img/bg-nuevosplatos.jpg);
-					border: 1px solid black;
+					border: 2px solid black;
 				}
 			}
 			.nuevoPlato2{
 				.nuevoPlato2-bg{
 					background-image: url(../assets/img/bg-nuevosplatos.jpg);
-					border: 1px solid black;
+					border: 2px solid black;
 				}
 			}
 			.nuevoPlato1__img{
-				border-right: 1px solid black;
+				border:{
+					right: 0px;
+					bottom: 1px solid black;
+				}
 			}
 			.nuevoPlato2__img{
-				border-left: 1px solid black;	
+				border:{
+					left: 0px;
+					top: 1px solid black;
+				}	
 			}
 			.nuevoPlato1__tittle, .nuevoPlato2__tittle{
 				font-size: 20px;
@@ -138,10 +144,134 @@
 			}
 			.carousel{
 				border: 1px solid black;
+				.carousel-inner{
+					width: 100%;
+					height: 200px !important;
+				}
 			}
 		}
 	}
-
+		// modificaciones del mainMenu
+		.mainMenu{
+		padding: 1rem 0px;
+		.menu__tittle{
+			font-size: 20px;
+			padding-bottom: 1rem;
+		}
+		/* seccion de comidas */
+		#guarniciones, #carnes, #pastas, #postres, #bebidasYTragos{
+			margin: 1rem 0px;
+		}
+		.guarniciones__tittle, .carnes__tittle, .pastas__tittle, .postres__tittle, .bebidasYTragos__tittle{
+			font-size: 15px;
+			padding: 0px 5px;
+		}
+		.guarniciones__subtittle, .carnes__subtittle, .pastas__subtittle, .postres__subtittle, .bebidasYTragos__subtittle{
+			font-size: 15px;
+		}
+		/* seccion de guarniciones */
+		#guarniciones{
+			.guarniciones__variedades{
+				padding-left: 30px;
+				.guarniciones__item{
+					font-size: 12px;
+				}
+			}
+			.guarniciones__img{
+				.guarniciones__img--modificaciones{
+					border: 1px solid brown;
+					margin-bottom: 0.5rem;
+				}
+			}
+		}
+		/* seccion de carnes */
+		.carnes__variedades{
+			padding: 0.5rem 0px;
+			.carnes__item{
+				font-size: 12px;
+			}
+		}
+		.carnes__img{
+			div{
+				.carnes__img1--modificaciones{
+					border: 1px solid brown;
+					margin:{
+						top: 0.5rem;
+						bottom: 1.5rem;
+						right: 3rem;
+					}
+				}
+			}
+			div{
+				.carnes__img2--modificaciones{
+					border: 1px solid brown;
+					margin:{
+						top: 0.5rem;
+						bottom: 0.5rem;
+						left: 3rem;
+					}
+				}
+			}
+		}
+		/* seccion de pastas */
+		.pastas__variedades{
+			padding: 0.5rem 0px;
+			.pastas__item{
+				font-size: 12px;
+			}
+		}
+		.pastas__img1--modificaciones{
+			border: 1px solid brown;
+			margin: 0.5rem 0px;
+		}
+		.pastas__img2--modificaciones{
+			border: 1px solid brown;
+			margin:{
+				top:0.5rem; 
+				bottom: 0.5rem;
+				right: 1.5rem;
+			}
+		}
+		.pastas__img3--modificaciones{
+			border: 1px solid brown;
+			margin:{
+				top:2rem ;
+				bottom: 0.5rem;
+				left: 0.5rem;
+			}
+		}
+		/* seccion de postres */
+		.postres__variedades{
+			padding: 0.5rem 0px;
+			.postres__item{
+				font-size: 12px;
+			}
+		}
+		.postres__img--modificaciones{
+			border: 1px solid brown;
+			margin: 0.5rem 0px;
+		}
+		/* seccion de bebidas y tragos */
+		.bebidasYTragos__sinAlcohol, .bebidasYTragos__conAlcohol{
+			font-size: 20px;
+			padding: 0.5rem 0px;
+		}
+		.sinAlcohol__variedades{
+			.sinAlcohol__item{
+				font-size: 12px;
+			}
+		}
+		.conAlcohol__variedades{
+			padding: 0.5rem 0px;
+			.conAlcohol__item{
+				font-size: 12px;
+			}
+		}
+		.bebidasYTragos__img--modificaciones{
+			border: 1px solid brown;
+			margin-bottom: 0.5rem;
+		}
+	}
 		// modificaciones del mainContacto
 		.mainContacto{
 		padding:{
@@ -183,6 +313,7 @@
 			margin-left: 1rem;
 		}
 		.contactanos{
+			padding-top: 2rem;
 			.contactanos__tittle--position{
 				padding-left: 1rem;
 				.contactanos__tittle{
@@ -193,7 +324,7 @@
 				padding-left: 1rem;
 				.contactanos__texto{
 					font-size: 17px;
-					width: 350px;
+					width: 100%;
 				}
 			}
 		}

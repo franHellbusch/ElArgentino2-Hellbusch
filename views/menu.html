@@ -7,10 +7,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
 	<!-- animaciones -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 	<!-- icons -->
 	<link rel="shortcut icon" href="../assets/img/favicon.png">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 	<!-- mi css -->
 	<link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -63,169 +63,207 @@
 		</div>
 	</header>
 	<main class="container-fluid mainMenu">
-		<section class="menu row">
-			<div class="menu__tittle col-lg-12">
-				<h1>Menu: El Argentino</h1>
+		 	<div class="row col-lg-12 col-12 d-flex justify-content-center">
+				<h1 class="menu__tittle">Menu: El Argentino</h1>
 			</div>
-			<nav class="menu__nav row">
-				<div class="col-lg-4">
-				<a href="#guarniciones"><img src="../assets/img/guarnicion.jpg" alt="guarniciones" class="menu__img"></a>
-		 			<h2 class="menu__nav__item"><a href="#guarniciones">Guarniciones</a></h2>
-		 		</div>
-		 		<div class="col-lg-4">
-		 		<a href="#pastas"><img src="../assets/img/pasta.jpg" alt="pastas" class="menu__img"></a>
-		 			<h2 class="menu__nav__item"><a href="#pastas">Pastas</a></h2>
-		 		</div>
-		 		<div class="col-lg-4">
-		 		<a href="#carnes"><img src="../assets/img/Solomillo-a-la-brasa.jpg" alt="carnes" class="menu__img"></a>
-		 			<h2 class="menu__nav__item"><a href="#carnes">Carnes</a></h2>
-		 		</div>
-		 		<div class="col-lg-6">
-		 		<a href="#postres"><img src="../assets/img/Flan.jpg" alt="postres" class="menu__img"></a>
-		 			<h2 class="menu__nav__item"><a href="#postres">Postres</a></h2>
-		 		</div>
-		 		<div class="col-lg-6">
-		 		<a href="#bebidasYTragos"><img src="../assets/img/bebida.jpg" alt="bebidasytragos" class="menu__img"></a>
-		 			<h2 class="menu__nav__item"><a href="#Bebidasytragos">Bebidas y tragos</a></h2>
-		 		</div>
-		 	</nav>
-		 </section>
 
-		 	<section id="guarniciones">
-		 	<div>	
-		 		<h2 class="guarniciones__tittle">Guarniciones</h2>
-			</div>
-			 <div>
-			 	<h3 class="guarniciones__subtittle">Variedades:</h3>
-			 </div>
-			 
-			 <div>
-			 	<ul class="guarniciones__variedades">
-			 		<li class="guarniciones__item">Papas (fritas, españolas, noisette)</li>
-			 		<li class="guarniciones__item">Pure (de papa, calabaza, zapallo)</li>
-			 		<li class="guarniciones__item">Champiñones salteados al ajillo</li>
-			 		<li class="guarniciones__item">Cebollas glaseadas</li>
-			 		<li class="guarniciones__item">Ensalada de col americana</li>
-			 		<li class="guarniciones__item">Mermelada de frutos rojos</li>
-			 		<li class="guarniciones__item">Ensalada de quinoa</li>
-			 		<li class="guarniciones__item">Zanahorias asadas</li>
-			 	</ul>
-			 </div>
-			 <div class="guarniciones_img">
-			 	<img src="../assets/img/mqdefault.jpg" alt="Guaniciones1" class="guarniciones__img--modificaciones">
-			 	<img src="../assets/img/guarnicion2.webp" alt="Guaniciones2" class="guarniciones__img--modificaciones">
-			 </div>
+	 		<section class="d-flex justify-content-center">
+	 			<div id="guarniciones" class="rounded">
+	 				<div class="row col-lg-12 col-12">
+					 	<div>	
+					 		<h2 class="guarniciones__tittle">Guarniciones</h2>
+						</div>
+						 <div>
+						 	<h3 class="guarniciones__subtittle">Variedades:</h3>
+						 </div>
+					 </div>
+					 <div class="row col-lg-12 col-12">
+					 	<div class="col-lg-6 col-6 d-flex justify-content-center">
+						 	<ul class="guarniciones__variedades">
+						 		<li class="guarniciones__item">Papas (fritas, españolas, noisette)</li>
+						 		<li class="guarniciones__item">Pure (de papa, calabaza, zapallo)</li>
+						 		<li class="guarniciones__item">Champiñones salteados al ajillo</li>
+						 		<li class="guarniciones__item">Cebollas glaseadas</li>
+						 	</ul>
+					 	</div>
+					 	<div class="col-lg-6 col-6 d-flex justify-content-center">
+						 	<ul class="guarniciones__variedades">
+						 		<li class="guarniciones__item">Ensalada de col americana</li>
+						 		<li class="guarniciones__item">Mermelada de frutos rojos</li>
+						 		<li class="guarniciones__item">Ensalada de quinoa</li>
+						 		<li class="guarniciones__item">Zanahorias asadas</li>
+						 	</ul>
+					 	</div>
+					 </div>
+					 <div class="row col-lg-12 col-12">
+					 	<div class="guarniciones_img col-lg-6 col-6 d-flex justify-content-center">
+					 		<img src="../assets/img/mqdefault.jpg" alt="Guaniciones1" class="guarniciones__img--modificaciones w-50 rounded">
+					 	</div>
+					 	<div class="guarniciones_img col-lg-6 col-6 d-flex justify-content-center">
+					 		<img src="../assets/img/guarnicion2.webp" alt="Guaniciones2" class="guarniciones__img--modificaciones w-50 rounded">
+					 	</div>
+					 </div>
+				 </div>
 			 </section>
 
-
-			 <section id="carnes">
-			 <div>	
-			 	<h2 class="carnes__tittle">Carnes</h2>
-			 </div>
-			 <div>
-			 	<h3 class="carnes__subtittle">Variedades:</h3>
-			 </div>
-			 <div>
-			 	<ul class="carnes__variedades">
-			 		<li class="carnes__item">Ternera en salsa de almendras</li>
-			 		<li class="carnes__item">Solomillo de ternera</li>
-			 		<li class="carnes__item">Jamon asado con naranja y romero</li>
-			 		<li class="carnes__item">Ternera con verdura y salsa de soja</li>
-			 		<li class="carnes__item">Pechuga de pollo con cebolla</li>
-			 		<li class="carnes__item">rollito de pechiga con salsa de verduras</li>
-			 		<li class="carnes__item">nuggets de pollo</li>
-			 		<li class="carnes__item">Lomo de cerdo con salsa de frutas</li>
-			 		<li class="carnes__item">Solomillo de cerdo con salsa de cerezas</li>
-			 	</ul>
-			 </div>
-			 <div class="carnes__img">
-			 	<img src="../assets/img/s-de-ternera.jpg" alt="carnes1" class="carnes__img--modificaciones">
-			 	<img src="../assets/img/l-de-cerdo.jpg" alt="carnes2" class="carnes__img--modificaciones">
-			 </div>
+			 <section class="d-flex justify-content-center">
+			 	<div id="carnes" class="rounded">
+			 		<div class="row col-lg-12 col-12">
+			 			<div>
+						 	<h2 class="carnes__tittle">Carnes</h2>
+						 </div>
+						 <div>
+						 	<h3 class="carnes__subtittle">Variedades:</h3>
+						 </div>
+					 </div>
+			 		<div class="row">
+						 <div class="carnes__img col-lg-6 col-6">
+						 	<div class="d-flex justify-content-center">
+						 		<img src="../assets/img/s-de-ternera.jpg" alt="carnes1" class="carnes__img1--modificaciones rounded">
+						 	</div>
+						 	<div class="d-flex justify-content-center">
+						 		<img src="../assets/img/l-de-cerdo.jpg" alt="carnes2" class="carnes__img2--modificaciones rounded">
+						 	</div>
+						 </div>
+						 <div class="col-lg-6 col-6">
+						 	<ul class="carnes__variedades">
+						 		<li class="carnes__item">Ternera en salsa de almendras</li>
+						 		<li class="carnes__item">Solomillo de ternera</li>
+						 		<li class="carnes__item">Jamon asado con naranja y romero</li>
+						 		<li class="carnes__item">Ternera con verdura y salsa de soja</li>
+						 		<li class="carnes__item">Pechuga de pollo con cebolla</li>
+						 		<li class="carnes__item">rollito de pechiga con salsa de verduras</li>
+						 		<li class="carnes__item">nuggets de pollo</li>
+						 		<li class="carnes__item">Lomo de cerdo con salsa de frutas</li>
+						 		<li class="carnes__item">Solomillo de cerdo con salsa de cerezas</li>
+						 	</ul>
+						 </div>
+					 </div>
+				</div>
 			</section>
 
-			<section id="pastas">
-			 <div>	
-			 	<h2 class="pastas__tittle">Pastas</h2>
-			 </div>
-			 <div>
-			 	<h3 class="pastas__subtittle">Variedades:</h3>
-			 </div>
-			 <div class="pastas__img">
-			 	<img src="../assets/img/images.jpg" alt="pasta1" class="pastas__img--modificaciones">
-			 	<img src="../assets/img/tallarines-con-pollo-y-aceitunas.jpg" alt="pasta2" class="pastas__img--modificaciones">
-			 	<img src="../assets/img/tomate-age-m.jpg" alt="pasta3" class="pastas__img--modificaciones">
-			 </div>
-			 <div>
-			 	<ul class="pastas__variedades">
-			 	<li class="pastas__item">Ravioles</li>
-			 	<li class="pastas__item">Sorrentinos</li>
-			 	<li class="pastas__item">Tallarines</li>
-			 	<li class="pastas__item">Ñoquis</li>
-			 	<li class="pastas__item">Capettinis</li>
-			 	<li class="pastas__item">Salsas: 4 quesos, marinara, blanca.</li>
-			 	</ul>
-			 </div>
+			<section class="d-flex justify-content-center">
+				<div id="pastas" class="rounded">
+					<div class="row col-lg-12 col-12">
+						<div>
+						 	<h2 class="pastas__tittle">Pastas</h2>
+						 </div>
+						 <div>
+						 	<h3 class="pastas__subtittle">Variedades:</h3>
+						 </div>
+					 </div>
+					<div class="row">
+						 <div class="pastas__img col-lg-3 col-3">
+						 	<div class="d-flex justify-content-end">
+						 		<img src="../assets/img/tallarines-con-pollo-y-aceitunas.jpg" alt="pasta2" class="pastas__img2--modificaciones rounded">
+						 	</div>
+						 	<div class="d-flex justify-content-end">
+						 		<img src="../assets/img/images.jpg" alt="pasta1" class="pastas__img1--modificaciones rounded">
+						 	</div>
+						 </div>
+						 	<div class="col-lg-3 col-3 d-flex justify-content-first">
+						 	<img src="../assets/img/tomate-age-m.jpg" alt="pasta3" class="pastas__img3--modificaciones rounded">
+						 </div>
+						 <div class=" col-lg-6 col-6">
+						 	<ul class="pastas__variedades">
+							 	<li class="pastas__item">Ravioles</li>
+							 	<li class="pastas__item">Sorrentinos</li>
+							 	<li class="pastas__item">Tallarines</li>
+							 	<li class="pastas__item">Ñoquis</li>
+							 	<li class="pastas__item">Capettinis</li>
+							 	<li class="pastas__item">Salsas: 4 quesos, marinara, blanca.</li>
+						 	</ul>
+						 </div>
+					</div>
+				</div>
 			</section>
 
-			<section id="postres">
-			 <div>	
-			 	<h2 class="postres__tittle">Postres</h2>
-			 </div>
-			  <div>
-			  	<h3 class="postres__subtittle">Variedades:</h3>
-			  </div>
-			  <div class="postres__img">
-			  	<img src="../assets/img/lemonpie.jpg" alt="postre1" class="postres__img--modificaciones">
-			  	<img src="../assets/img/tiramisu-min.webp" alt="postre2" class="postres__img--modificaciones">
-			  </div>
-			  <div>
-			  	<ul class="postres__variedades">
-			  	<li class="postres__item">Lemon pie</li>
-			  	<li class="postres__item">Tiramisu</li>
-			  	<li class="postres__item">Mousse de frutas del bosque</li>
-			  	<li class="postres__item">Helados (gustos clasicos)</li>
-			  	<li class="postres__item">Postre vijilante</li>
-			  	<li class="postres__item">Flan con crema o dulce de leche</li>
-			  	</ul>
-			  </div>
+			<section class="d-flex justify-content-center">
+				<div id="postres" class="rounded">
+					<div class="row col-lg-12 col-12">
+						<div>	
+							<h2 class="postres__tittle">Postres</h2>
+						</div>
+						<div>
+						 	<h3 class="postres__subtittle">Variedades:</h3>
+						</div>
+					</div>
+					  <div class="postres__img row col-lg-12 col-12">
+					  	<div class="col-lg-6 col-6 d-flex justify-content-center">
+					  		<img src="../assets/img/lemonpie.jpg" alt="postre1" class="postres__img--modificaciones rounded">
+					  	</div>
+					  	<div class="col-lg-6 col-6 d-flex justify-content-center">
+					  		<img src="../assets/img/tiramisu-min.webp" alt="postre2" class="postres__img--modificaciones rounded">
+					  	</div>
+					  </div>
+					  <div class="row col-lg-12 col-12">
+					  	<div class="col-lg-6 col-6 d-flex justify-content-center">
+						  	<ul class="postres__variedades">
+							  	<li class="postres__item">Lemon pie</li>
+							  	<li class="postres__item">Tiramisu</li>
+							  	<li class="postres__item">Mousse de frutas del bosque</li>
+							</ul>
+						</div>
+						<div class="col-lg-6 col-6 d-flex justify-content-center">
+							<ul class="postres__variedades">
+							  	<li class="postres__item">Helados (gustos clasicos)</li>
+							  	<li class="postres__item">Postre vijilante</li>
+							  	<li class="postres__item">Flan con crema o dulce de leche</li>
+						  	</ul>
+						</div>
+					</div>
+				</div>
 			</section>
 
 
-			<section id="bebidasYTragos"> 
-			  <div>	
-			  	<h2 class="bebidasYTragos__tittle">Bebidas y tragos</h2>
-			  </div>
-			  <div>
-			  	<h3 class="bebidasYTragos__subtittle">Variedades:</h3>
-			  </div>
-			  <div class="bebidasYTragos__sinAlcohol">
-			  	<h4>sin alcohol</h4></div>
-			  <div>
-			  	<ul class="sinAlcohol__variedades">
-			  	<li class="sinAlcohol__item">Agua o Agua saborisada</li>
-			  	<li class="sinAlcohol__item">Gaseosas</li>
-			  	<li class="sinAlcohol__item">Jugos exprimidos</li>
-			  	<li class="sinAlcohol__item">Limonada</li>
-			  	</ul>
-			  </div>
-			  <div class="bebidasytragos__img">
-			  	<img src="../assets/img/jugonaranja.webp" alt="postre1" class="bebidasytragos__img--modificaciones">
-			  	<img src="../assets/img/fernet.jpg" alt="postre2" class="bebidasytragos__img--modificaciones">
-			  </div>	
-			  	<div class="bebidasYTragos__conAlcohol">
-			  		<h4>Con alcohol</h4>
-			  	</div>
-			  <div>
-			  	<ul class="conAlcohol__variedades">
-			  	<li class="conAlcohol__item">Fernet</li>
-			  	<li class="conAlcohol__item">Vinos</li>
-			  	<li class="conAlcohol__item">Gancia</li>
-			  	<li class="conAlcohol__item">Cervezas</li>
-			  	<li class="conAlcohol__item">Chanpagne</li>
-			  	<li class="conAlcohol__item">Daiquiri</li>
-			  	</ul>
-			  </div>
+			<section class="d-flex justify-content-center"> 
+				<div id="bebidasYTragos" class="rounded">
+					<div class="row col-lg-12 col-12">
+					  	<div>
+					  		<h2 class="bebidasYTragos__tittle">Bebidas y tragos</h2>
+					  	</div>
+					  	<div>
+					  		<h3 class="bebidasYTragos__subtittle">Variedades:</h3>
+					  	</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-6">
+							<div class="bebidasYTragos__sinAlcohol d-flex justify-content-center">
+							  	<h4>sin alcohol</h4></div>
+							<div class="d-flex justify-content-center">
+							  	<ul class="sinAlcohol__variedades">
+								  	<li class="sinAlcohol__item">Agua o Agua saborisada</li>
+								  	<li class="sinAlcohol__item">Gaseosas</li>
+								  	<li class="sinAlcohol__item">Jugos exprimidos</li>
+								  	<li class="sinAlcohol__item">Limonada</li>
+							  	</ul>
+							</div>
+						</div>
+						<div class="col-lg-6 col-6">
+							<div class="bebidasYTragos__conAlcohol d-flex justify-content-center">
+							  	<h4>Con alcohol</h4>
+							</div>
+							<div class="bebidasYTragos__img d-flex justify-content-center">
+							  	<img src="../assets/img/fernet.jpg" alt="postre2" class="bebidasytragos__img--modificaciones rounded">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="bebidasytragos__img col-lg-6 col-6 d-flex justify-content-center">
+						  	<img src="../assets/img/jugonaranja.webp" alt="postre1" class="bebidasytragos__img--modificaciones rounded">
+						</div>
+						<div class="col-lg-6 col-6 d-flex justify-content-center">
+						  	<ul class="conAlcohol__variedades">
+							  	<li class="conAlcohol__item">Fernet</li>
+							  	<li class="conAlcohol__item">Vinos</li>
+							  	<li class="conAlcohol__item">Gancia</li>
+							  	<li class="conAlcohol__item">Cervezas</li>
+							  	<li class="conAlcohol__item">Chanpagne</li>
+							  	<li class="conAlcohol__item">Daiquiri</li>
+						 	</ul>
+						</div>
+					</div>
+				</div>
 			</section> 
 	</main>
 	<footer class="container-fluid">
