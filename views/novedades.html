@@ -64,46 +64,50 @@
 	</header>
 	<main class="container-fluid mainNovedades">
 		<section class="row nuevosPlatos col-lg-12 col-12">
-			<div class="nuevosPlatos__tittle col-lg-12 col-12 d-flex justify-content-center">
-				<h2>Nuevos Platos</h2>
+			<div class="row col-lg-12 col-12 d-flex justify-content-center">
+				<h2 class="nuevosPlatos__tittle">Nuevos Platos</h2>
 			</div>
-			<div class="no-gutters nuevoPlato1 col-lg-12 col-12 w-75">
-			    <div class="col-md-4">
-			      <img src="../assets/img/lomodecerdoconsalsa.jpg" alt="nuevoplato1" class="nuevoPlato1__img">
-			    </div>
-			    <div class="col-md-8">
-			      <div class="card-body">
-			        <h5 class="card-title nuevoPlato1__tittle">Lomo de cerdo con saksa de frutas</h5>
-			        <p class="card-text nuevoPlato1__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, minus sequi sit error similique tenetur officia explicabo et minima unde esse ad dolorum sint. Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Obcaecati sint, optio ipsam cupiditate quis?</p>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="no-gutters nuevoPlato1 col-lg-12 col-12 w-75">
-			    <div class="col-md-8">
-			      <div class="card-body">
-			        <h5 class="card-title nuevoPlato2__tittle">Solomillo de cerdo con salsa de cerezas</h5>
-			        <p class="card-text nuevoPlato2__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quam dicta, nobis minus reiciendis blanditiis ipsa, dolore mollitia nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio doloremque placeat sequi molestias eum accusamus aliquid</p>
-			      </div>
-			    </div>
-			    <div class="col-md-4">
-			      <img src="../assets/img/nuevoplato.png" alt="nuevoplato2" class="nuevoPlato2__img">
-			    </div>
+			<div class="nuevoPlato1 row d-flex justify-content-center">
+				<div class="no-gutters nuevoPlato1-bg col-md-10 col-md-offset-1 d-flex flex-wrap">
+				    <div class="col-md-4 col-10">
+				      <img src="../assets/img/lomodecerdoconsalsa.jpg" alt="nuevoplato1" class="nuevoPlato1__img">
+				    </div>
+				    <div class="col-md-8 col-10">
+				      <div class="card-body">
+				        <h5 class="card-title nuevoPlato1__tittle">Lomo de cerdo con saksa de frutas</h5>
+				        <p class="card-text nuevoPlato1__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, minus sequi sit error similique tenetur officia explicabo et minima unde esse ad dolorum sint. Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Obcaecati sint, optio ipsam cupiditate quis?</p>
+				      </div>
+				    </div>
+				  </div>
+			</div>
+			  <div class="nuevoPlato2 row d-flex justify-content-center">
+				  <div class="no-gutters nuevoPlato1-bg col-md-10 col-mdoffset-1 d-flex flex-wrap">
+				    <div class="col-md-8 col-10">
+				      <div class="card-body">
+				        <h5 class="card-title nuevoPlato2__tittle">Solomillo de cerdo con salsa de cerezas</h5>
+				        <p class="card-text nuevoPlato2__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quam dicta, nobis minus reiciendis blanditiis ipsa, dolore mollitia nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio doloremque placeat sequi molestias eum accusamus aliquid</p>
+				      </div>
+				    </div>
+				    <div class="col-md-4 col-10">
+				      <img src="../assets/img/nuevoplato.png" alt="nuevoplato2" class="nuevoPlato2__img">
+				    </div>
+				  </div>
 			  </div>
 		</section>
 
 		<section class="row ultimosCambios col-lg-12 col-12">
-			<div class="ultimosCambios__tittle col-lg-12 col-12">
+			<div class="ultimosCambios__tittle col-lg-12 col-12 d-flex justify-content-center">
 				<h2>Ultimos cambios</h2>
 			</div>
 			<div class="col-lg-12 col-12">
-				<div id="carouselExampleIndicators" class="carousel slide h-75 w-75" data-ride="carousel">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				  <ol class="carousel-indicators">
 				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 				    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 				  </ol>
-				  <div class="carousel-inner">
+				  <div class="carousel-inner" role="listbox" style="width: 100%; height: 650px !important;">
 				    <div class="carousel-item active">
 				      <img src="../assets/img/parrilla.png" class="d-block cambios__img w-100" alt="cambio1">
 				    </div>

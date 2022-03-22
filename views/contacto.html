@@ -62,38 +62,55 @@
 			</div>
 		</div>
 	</header>
-	<main class="mainContacto">
-		<section>
-		<h2 class="contacto__tittle">contacto</h2>
-		<form action="#" class="form">
-			<label for="name" class="form__name">Nombre
-				<input type="text" name="Nombre" placeholder="Nombre" class="form__name--modificaciones">	
-			</label>
-			<label for="apellido">
-				<input type="text" name="Apellido" placeholder="Apellido" class="form__apellido--modificaciones">
-			</label>
-			<div class="form__textarea">
-				Reservar
-				<textarea name="reservar" id="" cols="30" rows="10" class="form__textarea--modificaciones"></textarea>
+	<main class="mainContacto container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-12 d-flex justify-content-center">
+				<h2 class="contacto__tittle">contacto</h2>
 			</div>
-			<input type="submit" value="Enviar" class="form__enviar">
-			<input type="reset" value="Borrar" class="form__borrar">
-		</form>
-		<div>
-			<h3 class="contactanos__numero">Numero: +540000000000</h3>
-		</div>
-		</section>
+			<section class="col">
+				<form action="#" class="form">
+					<div class="form__name row">Nombre</div>
+					<div class="form__nombreApellido row">
+						<label for="name">
+							<input type="text" name="Nombre" placeholder="Nombre" class="form__name--modificaciones col-lg-10 col-12">	
+						</label>
+						<label for="apellido">
+							<input type="text" name="Apellido" placeholder="Apellido" class="form__apellido--modificaciones col-lg-10 col-12">
+						</label>
+					</div>
+					<div class="form__textarea row">Reservar</div>
+					<div class="form__textarea--modificaciones row">
+						<textarea name="reservar" id="" cols="45" rows="10" ></textarea>
+					</div>
+					<div class="form__enviarBorrar">
+						<input type="submit" value="Enviar" class="form__enviar">
+						<input type="reset" value="Borrar" class="form__borrar">
+					</div>
+				</form>
+				<div class="row w-100">
+					<h3 class="contactanos__numero">Numero: +540000000000</h3>
+				</div>
+			</section>
 
-		<section>
-		<div class="contactanos">
-			<h3 class="contactanos__tittle">Contactanos para saber</h3>
-			<p class="contactanos__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, inventore cumque nam! Ducimus illum accusamus earum odio eveniet et, rem! Provident numquam distinctio id ex alias repudiandae nesciunt eum inventore.</p>
+			<section class="col">
+				<div class="contactanos">
+					<div class="contactanos__tittle--position row d-flex">
+						<h3 class="contactanos__tittle">Contactanos para saber</h3>
+					</div>
+					<div class="row contactanos__texto--position">
+						<p class="contactanos__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, inventore cumque nam! Ducimus illum accusamus earum odio eveniet et, rem! Provident numquam distinctio id ex alias repudiandae nesciunt eum inventore.</p>
+					</div>
+				</div>
+				<div class="row contactanos__comenta">
+					<div class="col-lg-6">
+						<h4 class="comenta__tittle">Deja tu comentario:</h4>
+					</div>
+					<div class="col-lg-6">
+					<a href="https://goo.gl/maps/JQWyqzpSFECcz3EA7" target="_blank"><img src="../assets/img/googlemap.lnk" alt="googlemap" class="comenta__img"></a>
+					</div>
+				</div>
+			</section>
 		</div>
-		<div class="contactanos__comenta">
-			<h4 class="comenta__tittle">Deja tu comentario</h4>
-			<a href="https://goo.gl/maps/JQWyqzpSFECcz3EA7" target="_blank"><img src="../assets/img/googlemap.lnk" alt="googlemap" class="comenta__img"></a>
-		</div>
-		</section>
 	</main>
 	<footer class="container-fluid">
 		<div class="row footer">

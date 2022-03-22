@@ -5,49 +5,81 @@
 		attachment: fixed;
 		size: cover;
 	}
-	border:{
-		top: 1px solid black;
-		bottom: 1px solid black;
+	padding:{
+		top: 2rem;
+		bottom: 2rem;
 	}
 	font-family: $font;
 	.contacto__tittle{
 		font-size: 45px;
 		color: whitesmoke;
+		padding-bottom: 1rem;
 	}
-	.form__name{
-		font-size: 30px;
-		color: whitesmoke;
-	}
-	.form__name--modificaciones, .form__apellido--modificaciones{
-		font-size: 20px;
-	}
-	.form__textarea{
-		font-size: 30px;
-		color: whitesmoke;
-	}
-	.form__textarea--modificaciones{
-		font-size: 20px;
-		width: 510px;
-	}
-	.form__enviar, .form__borrar{
-		font-size: 20px;
+	.form{
+		.form__name{
+			font-size: 30px;
+			color: whitesmoke;
+			padding-left: 8rem;
+		}
+		.form__nombreApellido{
+			padding-left: 8rem;
+			.form__name--modificaciones, .form__apellido--modificaciones{
+				font-size: 20px;
+			}
+		}
+		.form__textarea{
+			font-size: 30px;
+			color: whitesmoke;
+			padding-left: 8rem;
+		}
+		.form__textarea--modificaciones{
+			font-size: 20px;
+			padding-left: 8rem;
+			width: 100%;
+		}
+		.form__enviarBorrar{
+			padding-left: 8rem;
+			.form__enviar, .form__borrar{
+				font-size: 20px;
+			}
+		}
 	}
 	.contactanos__numero{
 		font-size: 25px;
 		color: black;
 		background-color: brown;
 		border: 2px solid black;
+		margin-left: 8rem;
 	}
-	.contactanos__tittle .comenta__tittle{
-		font-size: 30px;
-		color: black;
+	.contactanos{
+		padding-top: 1rem;
+		.contactanos__tittle--position{
+			padding-left: 8rem;
+			.contactanos__tittle{
+				font-size: 30px;
+				color: black;
+			}
+		}
+		.contactanos__texto--position{
+			padding-left: 8rem;
+			.contactanos__texto{
+				font-size: 25px;
+				color: whitesmoke;
+				width: 500px;
+			}
+		}
 	}
-	.contactanos__texto{
-		font-size: 25px;
-		color: whitesmoke;
-		width: 500px;
-	}
-	.comenta__img{
-		width: 100px;
+	.contactanos__comenta{
+		padding:{
+			left: 8rem;
+			top: 1rem;
+		}
+		.comenta__tittle{
+			font-size: 30px;
+			color: black;
+		}
+		.comenta__img{
+			width: 100px;
+		}
 	}
 }
