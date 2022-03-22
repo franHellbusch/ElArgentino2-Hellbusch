@@ -249,45 +249,55 @@
         height: 450px; }
 
 @media only screen and (max-width: 600px) {
-  /* modificaciones del header */
-  .header__tittle {
-    font-size: 30px;
-    padding-top: 1rem; }
-  .header__logo {
-    width: 100px; }
-  .header__nav {
-    padding: 0px; }
-    .header__nav .navbar {
-      background-color: none;
-      height: auto;
-      margin-top: 0px;
-      font-size: 15px;
-      padding: 5px; }
+  body {
+    /* modificaciones del header */
+    /* modificaciones del footer */ }
+    body .header .header__logo {
+      width: 100px;
+      border: 1px solid black; }
+    body .header .header__tittle {
+      font-size: 30px;
+      padding-top: 1rem; }
+    body .header .header__nav {
+      padding: 0px; }
+      body .header .header__nav .navbar {
+        background-color: none;
+        height: auto;
+        margin-top: 0px;
+        font-size: 15px;
+        padding: 5px; }
+    body .footer {
+      padding: 10px 0px; }
+      body .footer .footer__tittle {
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 0px; }
+      body .footer .footer__img--modificaciones {
+        width: 40px;
+        margin: 0px 0.5rem; }
   /* modificaciones de la seccion de presentacion */
-  .presentacion {
-    padding-top: 2rem; }
-    .presentacion .presentacion__texto {
-      font-size: 15px; }
-  /* modificaciones de la seccion de infoDeLocal */
-  .infoDeLocal {
-    padding-top: 2rem;
-    padding-bottom: 1rem; }
-    .infoDeLocal .infoDeLocal__tittle {
-      font-size: 30px; }
-    .infoDeLocal .infoDeLocal__ubicacion {
+  .index
+.mainIndex {
+    /* modificaciones de la seccion de infoDeLocal */ }
+    .index
+.mainIndex .presentacion {
+      padding-top: 2rem; }
+      .index
+.mainIndex .presentacion .presentacion__texto {
+        font-size: 15px; }
+    .index
+.mainIndex .infoDeLocal {
       padding-top: 2rem;
-      height: 100px; }
-    .infoDeLocal .infoDeLocal__video {
-      padding-top: 1rem;
-      width: 160px;
-      height: 130px; }
-  /* modificaciones del footer */
-  .footer {
-    padding: 10px 0px; }
-    .footer .footer__tittle {
-      font-size: 15px;
-      padding-left: 10px;
-      padding-top: 0px; }
-    .footer .footer__img--modificaciones {
-      width: 40px;
-      margin: 0px 0.5rem; } }
+      padding-bottom: 1rem; }
+      .index
+.mainIndex .infoDeLocal .infoDeLocal__tittle {
+        font-size: 30px; }
+      .index
+.mainIndex .infoDeLocal .infoDeLocal__ubicacion {
+        padding-top: 2rem;
+        height: 100px; }
+      .index
+.mainIndex .infoDeLocal .infoDeLocal__video {
+        padding-top: 1rem;
+        width: 160px;
+        height: 130px; } }
