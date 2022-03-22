@@ -8,30 +8,40 @@
 		top: 2px solid black;
 		bottom: 2px solid black;
 	}
+	padding: 0px;
 	font-family: $font;
 	/* modificaciones de la seccion de comienzo */
 	.comienzo{
 		padding:{
 			top: 3rem;
-			bottom: 4rem;
+			bottom: 5rem;
 		}
 		.comienzo__tittle{
 			font-size: 45px;
 			color: black;
+			padding-bottom: 1rem;
 		}
 		.comienzo__img{
-			border: 2px double black;
-			padding: 0px;
+		
+			.comienzo__img--modificaciones{
+				border: 2px double black;
+				padding: 0px;
+				width: 90%;
+			}
 		}
 		.comienzo__texto{
-			font-size: 23px;
+			font-size: 22px;
 			color: brown;
+			width: 85%;
 			background:{
 				color: whitesmoke;
 				size: cover;
 			}
 			border: 2px double black;
 			padding: 2rem;
+			margin:{
+				top: 10px;
+			}
 		}
 	}
 	/* modificaciones de las seccion de personal */

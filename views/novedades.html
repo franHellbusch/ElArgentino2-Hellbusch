@@ -16,7 +16,7 @@
 </head>
 <body class="nosotros" data-aos="fade-up">
 	<header class="container-fluid sticky-top">
-		<div class="row header sticky-top d-flex flex-row col-lg-12 col-12">
+		<div class="row header sticky-top">
 			<div class="tituloDePagina col-lg-6 col-10 d-flex flex-row">
 				<a href="../index.html">
 					<img src="../assets/img/logo.jpg" alt="Logo" class="header__logo header__logo--modificaciones">
@@ -39,7 +39,7 @@
 				        <a class="nav-link" href="nosotros.html">Nosotros</a>
 				      </li>
 				      <li class="nav-item dropdown">
-				        <a class="nav-link dropdown-toggle" href="menu.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
 				          Menu
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -51,7 +51,7 @@
 				        </div>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Novedades</a>
+				        <a class="nav-link" href="novedades.html">Novedades</a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link" href="contacto.html">Contacto</a>
@@ -64,10 +64,10 @@
 	</header>
 	<main class="container-fluid mainNovedades">
 		<section class="row nuevosPlatos col-lg-12 col-12">
-			<div class="nuevosPlatos__tittle col-lg-12 col-12">
+			<div class="nuevosPlatos__tittle col-lg-12 col-12 d-flex justify-content-center">
 				<h2>Nuevos Platos</h2>
 			</div>
-			<div class="row no-gutters nuevoPlato1 col-lg-12 col-12">
+			<div class="no-gutters nuevoPlato1 col-lg-12 col-12 w-75">
 			    <div class="col-md-4">
 			      <img src="../assets/img/lomodecerdoconsalsa.jpg" alt="nuevoplato1" class="nuevoPlato1__img">
 			    </div>
@@ -78,7 +78,7 @@
 			      </div>
 			    </div>
 			  </div>
-			  <div class="row no-gutters nuevoPlato1 col-lg-12 col-12">
+			  <div class="no-gutters nuevoPlato1 col-lg-12 col-12 w-75">
 			    <div class="col-md-8">
 			      <div class="card-body">
 			        <h5 class="card-title nuevoPlato2__tittle">Solomillo de cerdo con salsa de cerezas</h5>
@@ -91,8 +91,11 @@
 			  </div>
 		</section>
 
-		<section class=" row ultimosCambios col-lg-12 col-12">
-				<h2 class="ultimosCambios__tittle">Ultimos cambios</h2>
+		<section class="row ultimosCambios col-lg-12 col-12">
+			<div class="ultimosCambios__tittle col-lg-12 col-12">
+				<h2>Ultimos cambios</h2>
+			</div>
+			<div class="col-lg-12 col-12">
 				<div id="carouselExampleIndicators" class="carousel slide h-75 w-75" data-ride="carousel">
 				  <ol class="carousel-indicators">
 				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -123,10 +126,11 @@
 				    <span class="sr-only">Next</span>
 				  </button>
 				</div>
+				</div>
 		</section>
 	</main>
 	<footer class="container-fluid">
-		<div class="row footer col-lg-12 col-12 d-flex flex-row">
+		<div class="row footer">
 			<div class="footer__tittle col-lg-6 col-6">
 				<h3>Contactanos</h3>
 			</div>

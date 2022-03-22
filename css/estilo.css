@@ -79,25 +79,30 @@
   background-size: cover;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  padding: 0px;
   font-family: "Montserrat", sans-serif;
   /* modificaciones de la seccion de comienzo */
   /* modificaciones de las seccion de personal */ }
   .mainNosotros .comienzo {
     padding-top: 3rem;
-    padding-bottom: 4rem; }
+    padding-bottom: 5rem; }
     .mainNosotros .comienzo .comienzo__tittle {
       font-size: 45px;
-      color: black; }
-    .mainNosotros .comienzo .comienzo__img {
+      color: black;
+      padding-bottom: 1rem; }
+    .mainNosotros .comienzo .comienzo__img .comienzo__img--modificaciones {
       border: 2px double black;
-      padding: 0px; }
+      padding: 0px;
+      width: 90%; }
     .mainNosotros .comienzo .comienzo__texto {
-      font-size: 23px;
+      font-size: 22px;
       color: brown;
+      width: 85%;
       background-color: whitesmoke;
       background-size: cover;
       border: 2px double black;
-      padding: 2rem; }
+      padding: 2rem;
+      margin-top: 10px; }
   .mainNosotros .personal {
     padding-bottom: 3rem; }
     .mainNosotros .personal .personal__tittle {
@@ -300,4 +305,25 @@
 .mainIndex .infoDeLocal .infoDeLocal__video {
         padding-top: 1rem;
         width: 160px;
-        height: 130px; } }
+        height: 130px; }
+  /* modificaciones de la seccion de comienzo */
+  .mainNosotros {
+    /* modificaciones de las seccion de personal */ }
+    .mainNosotros .comienzo {
+      padding-top: 1rem;
+      padding-bottom: 1.5rem; }
+      .mainNosotros .comienzo .comienzo__tittle {
+        font-size: 25px;
+        color: black; }
+      .mainNosotros .comienzo .comienzo__img .comienzo__img--modificaciones {
+        width: 100%;
+        border: 1px solid black; }
+      .mainNosotros .comienzo .comienzo__texto {
+        font-size: 13px;
+        width: 100%;
+        border: 1px double black; }
+    .mainNosotros .personal {
+      padding-bottom: 1rem; }
+      .mainNosotros .personal .personal__tittle {
+        font-size: 20px;
+        color: black; } }
