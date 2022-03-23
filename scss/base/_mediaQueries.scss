@@ -8,7 +8,10 @@
 				}
 				.header__tittle{
 					font-size: 25px;
-					padding-top: 1rem;
+					padding:{
+						left: 0.5rem;
+						top: 1rem;
+					}
 				}
 				.header__nav{
 					padding: 0px;
@@ -25,10 +28,10 @@
 			.footer{
 				padding: 10px 0px;
 				.footer__tittle{
-					font-size: 15px;
+					font-size: 20px;
 					padding:{
 						left: 10px;
-						top: 0px;
+						top: 10px;
 					}
 				}
 				.footer__img--modificaciones{
@@ -154,124 +157,125 @@
 		// modificaciones del mainMenu
 		.mainMenu{
 		padding: 1rem 0px;
-		.menu__tittle{
-			font-size: 20px;
-			padding-bottom: 1rem;
-		}
-		/* seccion de comidas */
-		#guarniciones, #carnes, #pastas, #postres, #bebidasYTragos{
-			margin: 1rem 0px;
-		}
-		.guarniciones__tittle, .carnes__tittle, .pastas__tittle, .postres__tittle, .bebidasYTragos__tittle{
-			font-size: 15px;
-			padding: 0px 5px;
-		}
-		.guarniciones__subtittle, .carnes__subtittle, .pastas__subtittle, .postres__subtittle, .bebidasYTragos__subtittle{
-			font-size: 15px;
-		}
-		/* seccion de guarniciones */
-		#guarniciones{
-			.guarniciones__variedades{
-				padding-left: 30px;
-				.guarniciones__item{
+			.menu__tittle{
+				font-size: 20px;
+				padding-bottom: 1rem;
+			}
+			/* seccion de comidas */
+			#guarniciones, #carnes, #pastas, #postres, #bebidasYTragos{
+				margin: 1rem 0px;
+			}
+			.guarniciones__tittle, .carnes__tittle, .pastas__tittle, .postres__tittle, .bebidasYTragos__tittle{
+				font-size: 15px;
+				padding: 0px 5px;
+			}
+			.guarniciones__subtittle, .carnes__subtittle, .pastas__subtittle, .postres__subtittle, .bebidasYTragos__subtittle{
+				font-size: 15px;
+			}
+			/* seccion de guarniciones */
+			#guarniciones{
+				.guarniciones__variedades1, .guarniciones__variedades2{
+					padding-left: 30px;
+					.guarniciones__item{
+						font-size: 12px;
+					}
+				}
+				.guarniciones__img{
+					.guarniciones__img--modificaciones{
+						border: 1px solid brown;
+						margin-bottom: 0.5rem;
+						width: 100%;
+					}
+				}
+			}
+			/* seccion de carnes */
+			.carnes__variedades{
+				padding: 0.5rem 0px;
+				.carnes__item{
 					font-size: 12px;
 				}
 			}
-			.guarniciones__img{
-				.guarniciones__img--modificaciones{
-					border: 1px solid brown;
-					margin-bottom: 0.5rem;
+			.carnes__img{
+				div{
+					.carnes__img1--modificaciones{
+						border: 1px solid brown;
+						margin:{
+							top: 0.5rem;
+							bottom: 1.5rem;
+							right: 3rem;
+						}
+					}
 				}
-			}
-		}
-		/* seccion de carnes */
-		.carnes__variedades{
-			padding: 0.5rem 0px;
-			.carnes__item{
-				font-size: 12px;
-			}
-		}
-		.carnes__img{
-			div{
-				.carnes__img1--modificaciones{
-					border: 1px solid brown;
-					margin:{
-						top: 0.5rem;
-						bottom: 1.5rem;
-						right: 3rem;
+				div{
+					.carnes__img2--modificaciones{
+						border: 1px solid brown;
+						margin:{
+							top: 0.5rem;
+							bottom: 0.5rem;
+							left: 3rem;
+						}
 					}
 				}
 			}
-			div{
-				.carnes__img2--modificaciones{
-					border: 1px solid brown;
-					margin:{
-						top: 0.5rem;
-						bottom: 0.5rem;
-						left: 3rem;
-					}
+			/* seccion de pastas */
+			.pastas__variedades{
+				padding: 0.5rem 0px;
+				.pastas__item{
+					font-size: 12px;
 				}
 			}
-		}
-		/* seccion de pastas */
-		.pastas__variedades{
-			padding: 0.5rem 0px;
-			.pastas__item{
-				font-size: 12px;
+			.pastas__img1--modificaciones{
+				border: 1px solid brown;
+				margin: 0.5rem 0px;
+			}
+			.pastas__img2--modificaciones{
+				border: 1px solid brown;
+				margin:{
+					top:0.5rem; 
+					bottom: 0.5rem;
+					right: 1.5rem;
+				}
+			}
+			.pastas__img3--modificaciones{
+				border: 1px solid brown;
+				margin:{
+					top:2rem ;
+					bottom: 0.5rem;
+					left: 0.5rem;
+				}
+			}
+			/* seccion de postres */
+			.postres__variedades{
+				padding: 0.5rem 0px;
+				.postres__item{
+					font-size: 12px;
+				}
+			}
+			.postres__img--modificaciones{
+				border: 1px solid brown;
+				margin: 0.5rem 0px;
+			}
+			/* seccion de bebidas y tragos */
+			.bebidasYTragos__sinAlcohol, .bebidasYTragos__conAlcohol{
+				font-size: 20px;
+				padding: 0.5rem 0px;
+			}
+			.sinAlcohol__variedades{
+				.sinAlcohol__item{
+					font-size: 12px;
+				}
+			}
+			.conAlcohol__variedades{
+				padding: 0.5rem 0px;
+				.conAlcohol__item{
+					font-size: 12px;
+				}
+			}
+			.bebidasYTragos__img--modificaciones{
+				border: 1px solid brown;
+				margin-bottom: 0.5rem;
 			}
 		}
-		.pastas__img1--modificaciones{
-			border: 1px solid brown;
-			margin: 0.5rem 0px;
-		}
-		.pastas__img2--modificaciones{
-			border: 1px solid brown;
-			margin:{
-				top:0.5rem; 
-				bottom: 0.5rem;
-				right: 1.5rem;
-			}
-		}
-		.pastas__img3--modificaciones{
-			border: 1px solid brown;
-			margin:{
-				top:2rem ;
-				bottom: 0.5rem;
-				left: 0.5rem;
-			}
-		}
-		/* seccion de postres */
-		.postres__variedades{
-			padding: 0.5rem 0px;
-			.postres__item{
-				font-size: 12px;
-			}
-		}
-		.postres__img--modificaciones{
-			border: 1px solid brown;
-			margin: 0.5rem 0px;
-		}
-		/* seccion de bebidas y tragos */
-		.bebidasYTragos__sinAlcohol, .bebidasYTragos__conAlcohol{
-			font-size: 20px;
-			padding: 0.5rem 0px;
-		}
-		.sinAlcohol__variedades{
-			.sinAlcohol__item{
-				font-size: 12px;
-			}
-		}
-		.conAlcohol__variedades{
-			padding: 0.5rem 0px;
-			.conAlcohol__item{
-				font-size: 12px;
-			}
-		}
-		.bebidasYTragos__img--modificaciones{
-			border: 1px solid brown;
-			margin-bottom: 0.5rem;
-		}
-	}
 		// modificaciones del mainContacto
 		.mainContacto{
 		padding:{
